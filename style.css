@@ -257,8 +257,10 @@ body
 }
 .banner .body .left .btns-container .vid-container .vid-paly
 {
+    width: 1.5rem;
+    height: 1.5rem;
     border: 1px solid #2F3C7E;
-    padding: 5%;
+    padding: 1.3rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -339,7 +341,7 @@ body
 }
 .section-2 .outer-container .slider-container
 {
-    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    background: linear-gradient(to left, #dfa7b0, #ffafbd, #ffc3a0);
     width: 50vw;
     height: 100%;
     border-radius: 10px;
@@ -363,7 +365,7 @@ body
 .section-2 .outer-container .slider-container .slider-item:hover
 {
     background-color: gold;
-    scale: calc(1.5);
+    scale: calc(1.1);
 }
 .section-2 .outer-container .slider-container .slider-item:hover p,
 .section-2 .outer-container .slider-container .slider-item:hover h4
@@ -966,7 +968,7 @@ footer .container
     background-color: #eef1ff;
     border-radius: 6px;
     padding: 2%;
-    width: 100%;box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     display: flex;
 }
 footer .container .left
