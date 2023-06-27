@@ -141,12 +141,24 @@ body
         height: 40vh !important;
     }
 }
+@media screen and (max-width: 1240px)
+{
+    .section-2 .outer-container .slider-container .slider-item p
+    {
+        font-size: 0.7rem !important;
+    }
+    .section-2 .outer-container .slider-container .slider-item h4
+    {
+        font-size: 0.5rem !important;
+    }
+}
 @media screen and (max-width: 800px)
 {
     html
     {
         font-size: 2vw;
     }
+
     .banner
     {
      height: max-content;
@@ -387,9 +399,10 @@ body
 }
 .section-2 .outer-container .slider-container .slider-item p
 {
+    text-align: center;
     margin-top: 6%;
     transition: color 0.6s;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: white;
 }
@@ -401,6 +414,8 @@ body
     margin-top: 6%;
     font-weight: 1000;
     color: white;
+    font-size: 0.9rem;
+    text-align: center;
 }
 .swiper
 {
